@@ -1,0 +1,117 @@
+.portfolio-banner {
+    background-color: #f4ead5; /* Warna krem lembut */
+    background-size: cover; /* Gambar mengisi penuh */
+    background-position: center; /* Fokus gambar di tengah */
+    background-repeat: no-repeat; /* Jangan ulang gambar */
+    padding: 4rem 0;
+    text-align: center;
+    color: white; /* Warna teks yang kontras */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-section {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .profile-img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 150px 150px 0 0; /* Membuat bagian atas gambar melengkung */
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2); /* Efek bayangan */
+    transition: transform 0.6s ease, opacity 0.6s ease; /* Transisi lembut */
+  }
+  
+  .animate-profile {
+    transform: scale(1);
+  }
+  
+  .animate-profile:hover {
+    transform: scale(1.05); /* Zoom saat hover */
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: #ffffff; /* Warna latar teks */
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    color: #3b3027;
+    font-family: "Cursive", serif; /* Gaya font khusus */
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .animate-text {
+    opacity: 1;
+  }
+  
+  h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #3b3027;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .animate-heading {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #6e4f35;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .animate-subheading {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  button {
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #6e4f35;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4a3423;
+    transform: translateY(-3px);
+  }
+  
+  .animate-button {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

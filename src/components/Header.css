@@ -1,0 +1,33 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+  }
+  
+  .profile-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #343a40;
+  }
+  
+  h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  button {
+    font-size: 1rem;
+  }
+  

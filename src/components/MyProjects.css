@@ -1,0 +1,36 @@
+.project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff; /* Warna latar belakang putih untuk kartu */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kartu */
+    transition: transform 0.3s ease-in-out; /* Efek transisi */
+  }
+  
+  .project-card img {
+    width: 200px; /* Atur lebar gambar */
+    height: 200px; /* Atur tinggi gambar */
+    object-fit: cover; /* Mengatur agar gambar mengisi area tanpa distorsi */
+    border-radius: 50%; /* Jika ingin gambar berbentuk lingkaran */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Efek transisi saat hover */
+  }
+  
+  .card-title {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #6e4f35;
+  }
+  
+  .card-text {
+    color: #3b3027;
+    font-size: 1rem;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 50px;
+  }
+  
